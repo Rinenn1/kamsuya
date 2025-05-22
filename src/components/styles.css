@@ -1,0 +1,57 @@
+
+
+.overall{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.link-items{
+    display: flex;
+    align-items: center;
+}
+
+.link-items > li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.link-items > li > a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    width: 45px;
+}
+
+.logo-text{
+    color: green;
+    margin: 0;
+}
+
+.account{
+    display: flex;
+}
+
+.account > li{
+    list-style: none;
+}
+
+.account > li > a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.account-icon{
+    width: 30px;
+    margin-left: 20px;
+}
